@@ -1,0 +1,27 @@
+{
+  "name": "kanye-said-this-lol",
+  "version": "1.0.0",
+  "description": "Kanye said this lmao",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdithyaBhat17/kanye-said-this-lol.git"
+  },
+  "author": "Adithya NR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdithyaBhat17/kanye-said-this-lol/issues"
+  },
+  "homepage": "https://github.com/AdithyaBhat17/kanye-said-this-lol#readme",
+  "dependencies": {
+    "next": "^8.0.3",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  }
+}
