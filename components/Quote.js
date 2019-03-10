@@ -1,6 +1,6 @@
 
 const Quote = ({quote}) => (
-    <div>
+    <div className="quote">
         {quote}
     </div>
 )
