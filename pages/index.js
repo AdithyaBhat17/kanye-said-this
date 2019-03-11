@@ -13,7 +13,7 @@ const Index = () => {
             const json = await result.json()
             setQuote(json.quote)
         }
-        const random = Math.floor(Math.random() * 3) + 1
+        const random = Math.floor(Math.random() * 2) + 1
         const body = document.getElementsByTagName('body')[0]
         body.style.background = `url(/static/gif${random}.gif)`
         fetchQuote()
