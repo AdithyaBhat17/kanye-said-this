@@ -6,6 +6,7 @@ body {
     height: 100vh;
     margin: 0;
     color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-position: center;
     background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -16,4 +17,31 @@ body {
     text-align: center;
     margin: 25vh auto;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
+}
+
+img {
+    width: 250px;
+}
+
+button {
+    background: rgb(0,0,0);
+    padding: 20px;
+    transform: skew(-20deg);
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 768px) {
+    .quote > p {
+        font-size: 21px;
+    }
+    img {
+        width: 150px !important;
+    }
+    body {
+        background-size: cover !important;
+        background-position: -400px !important; 
+    }
 }

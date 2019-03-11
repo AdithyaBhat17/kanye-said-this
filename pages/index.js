@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import Quote from '../components/Quote'
+import Head from 'next/head'
 
 import '../style.css'
 
@@ -20,6 +21,10 @@ const Index = () => {
 
     return (
         <div>
+            <Head>
+                <title>Kanye said this lol!</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            </Head>
             {quote !== null && <Quote quote={quote.toString()} />}
         </div>
     )
